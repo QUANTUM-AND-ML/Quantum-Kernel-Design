@@ -66,16 +66,16 @@ Quantum kernel methods have emerged as a promising direction in quantum machine 
 
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QaML@main/figures/Figure_3.png" alt="Figure 3" width="560">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_4c.png" alt="Figure 3" width="600">
 </p>
 
-**Figure 3.** Single-qubit expectation values prediction by GNNs under noisy and noiseless conditions.
+**Figure 4.** Comparison of runtime of prediction and direct calculation for PST and KTA.
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QaML@main/figures/Figure_4.png" alt="Figure 4" width="560">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_4e.png" alt="Figure 4" width="800">
 </p>
 
-**Figure 4.** Prediction accuracy of Indirect Comparison and Direct Comparison schemes for parametrized quantum circuit performance.
+**Figure 5.** Classification accuracy of different methods on the MNIST-5 classification task under noisy simulation.
 
 ## Python scripts
 Here is the **brief introduction** to each python file for better understanding and usage:
