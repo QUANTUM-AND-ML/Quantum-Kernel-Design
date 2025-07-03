@@ -7,8 +7,8 @@
 
 
 <p align="center">
-    <a href="https://github.com/QUANTUM-AND-ML/QaML/blob/main/LICENSE">
-        <img alt="MIT License" src="https://img.shields.io/github/license/QUANTUM-AND-ML/QaML">
+    <a href="https://github.com/QUANTUM-AND-ML/Quantum-Kernel-Design/blob/main/LICENSE">
+        <img alt="MIT License" src="https://img.shields.io/github/license/QUANTUM-AND-ML/Quantum-Kernel-Design">
     </a>
     <a href="https://www.python.org/downloads/release/python-3813/">
         <img alt="Version" src="https://img.shields.io/badge/Python-3.8-orange">
