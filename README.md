@@ -54,8 +54,7 @@ Quantum kernel methods have emerged as a promising direction in quantum machine 
 <img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QaML@main/figures/Figure_2.png" alt="Figure 2" width="760">
 </p>
 
-**Figure 2.** The framework of circuit performance comparison prediction. Firstly, convert the two quantum circuits into one graph, where each node feature vector includes information about the noise. Input the graph into the GNNs to directly predict the performance comparison of the two circuits.
-
+**Figure 2.** Subgraphs with $N=4,5,7$ and $8$ selected from the 133-qubit IBM Torino topology.
 
 ## Results display
 
