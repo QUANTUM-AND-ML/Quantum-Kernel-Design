@@ -45,7 +45,7 @@ Relevant scripts and data for the paper entitled "[**Hardware-Aware Quantum Kern
 Quantum kernel methods have emerged as a promising direction in quantum machine learning (QML), offering a principled way to map classical data into high-dimensional quantum Hilbert spaces. While conceptually powerful, designing effective quantum kernels that adapt to both the target task and the constraints of near-term quantum hardware remains a nontrivial challenge. In this work, we propose HaQGNN, a hardware-aware quantum kernel design framework that integrates quantum device topology, noise characteristics, and graph neural networks (GNNs) to evaluate and select task-relevant quantum circuits. By predicting surrogate metrics related to fidelity and kernel performance, HaQGNN enables efficient circuit screening at scale. Feature selection is further incorporated to improve compatibility with limited-qubit systems and mitigate kernel degradation. Extensive experiments on three benchmark datasets, Credit Card, MNIST-5, and FMNIST-4, demonstrate that HaQGNN outperforms existing quantum kernel baselines in terms of classification accuracy. Our work highlights the potential of learning-based and hardware-aware strategies for advancing practical quantum kernel design on NISQ devices.
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QaML@main/figures/Figure_1.png" alt="Figure 1" width="800">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QaML@main/figures/figure_3a.png" alt="Figure 1" width="800">
 </p>
 
 **Figure 1.** An overview of hardware-aware quantum kernel design.
