@@ -42,15 +42,13 @@ Relevant scripts and data for the paper entitled "[**Hardware-Aware Quantum Kern
 * [**Dependencies**](#Dependencies)
 
 ## Main work
-This paper proposes a Graph Neural Networks (GNNs)-based framework to predict the output expectation values of quantum circuits under noisy and noiseless conditions and compare the performance of different parameterized quantum circuits (PQCs).
-We begin by constructing datasets under noisy and noiseless conditions using a non-parameterized quantum gate set to predict circuit expectation values. The node feature vectors for GNNs are specifically designed to include noise information. In our simulations, we compare the prediction performance of GNNs in both noisy and noiseless conditions, against Convolutional Neural Networks (CNNs) on the same dataset and their qubit scalability. GNNs demonstrate superior prediction accuracy across diverse conditions. Subsequently, we utilize the parameterized quantum gate set to construct noisy PQCs and compute the ground state energy of hydrogen molecules using the Variational Quantum Eigensolver (VQE).
-We propose two schemes: the Indirect Comparison scheme, which involves directly predicting the ground state energy and subsequently comparing circuit performances, and the Direct Comparison scheme, which directly predicts the relative performance of the two circuits. Simulation results indicate that the Direct Comparison scheme significantly outperforms the Indirect Comparison scheme by an average of 36.2\% on the same dataset, providing a new and effective perspective for using GNNs to predict the overall properties of PQCs, specifically by focusing on their performance differences.
+Quantum kernel methods have emerged as a promising direction in quantum machine learning (QML), offering a principled way to map classical data into high-dimensional quantum Hilbert spaces. While conceptually powerful, designing effective quantum kernels that adapt to both the target task and the constraints of near-term quantum hardware remains a nontrivial challenge. In this work, we propose HaQGNN, a hardware-aware quantum kernel design framework that integrates quantum device topology, noise characteristics, and graph neural networks (GNNs) to evaluate and select task-relevant quantum circuits. By predicting surrogate metrics related to fidelity and kernel performance, HaQGNN enables efficient circuit screening at scale. Feature selection is further incorporated to improve compatibility with limited-qubit systems and mitigate kernel degradation. Extensive experiments on three benchmark datasets, Credit Card, MNIST-5, and FMNIST-4, demonstrate that HaQGNN outperforms existing quantum kernel baselines in terms of classification accuracy. Our work highlights the potential of learning-based and hardware-aware strategies for advancing practical quantum kernel design on NISQ devices.
 
 <p align="center">
 <img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QaML@main/figures/Figure_1.png" alt="Figure 1" width="800">
 </p>
 
-**Figure 1.** The framework for expectation values prediction. **a)** Generate random quantum circuits. **b)** Transform the random quantum circuits into graph structures. **c)** Incorporate noise information into the graph nodes of the quantum circuits, train GNNs, and predict the expectation values of quantum circuits.
+**Figure 1.** An overview of hardware-aware quantum kernel design.
 
 <p align="center">
 <img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/QaML@main/figures/Figure_2.png" alt="Figure 2" width="760">
