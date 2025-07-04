@@ -57,7 +57,7 @@ Quantum kernel methods have emerged as a promising direction in quantum machine 
 **Figure 2.** Subgraphs with $N=4,5,7$ and $8$ selected from the 133-qubit IBM Torino topology.
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_3f.png" alt="Figure 2" width="800">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_3f.png" alt="Figure 2" width="600">
 </p>
 
 **Figure 3.** The architectures of the GNNs-1 and GNNs-2.
@@ -66,7 +66,7 @@ Quantum kernel methods have emerged as a promising direction in quantum machine 
 
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_4c.png" alt="Figure 3" width="600">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_4c.png" alt="Figure 3" width="400">
 </p>
 
 **Figure 4.** Comparison of runtime of prediction and direct calculation for PST and KTA.
