@@ -51,7 +51,7 @@ Quantum kernel methods have emerged as a promising direction in quantum machine 
 **Figure 1.** An overview of hardware-aware quantum kernel design.
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_3b.png" alt="Figure 2" width="600">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_3b.png" alt="Figure 2" width="700">
 </p>
 
 **Figure 2.** Subgraphs with $N=4,5,7$ and $8$ selected from the 133-qubit IBM Torino topology.
@@ -66,7 +66,7 @@ Quantum kernel methods have emerged as a promising direction in quantum machine 
 
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_4c.png" alt="Figure 3" width="400">
+<img src="https://cdn.jsdelivr.net/gh/QUANTUM-AND-ML/Quantum-Kernel-Design@main/figures/figure_4c.png" alt="Figure 3" width="500">
 </p>
 
 **Figure 4.** Comparison of runtime of prediction and direct calculation for PST and KTA.
