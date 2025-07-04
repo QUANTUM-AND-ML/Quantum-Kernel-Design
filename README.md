@@ -33,7 +33,7 @@
 
 
 ## Quantum & Machine Learning
-Relevant scripts and data for the paper entitled "[**Hardware-Aware Quantum Kernel Design Based on Graph Neural Networks**](https://arxiv.org/abs/2506.21161)"
+Relevant scripts and data for the paper entitled "[**Hardware-Aware Quantum Kernel Design Based on Graph Neural Networks**](https://arxiv.org/abs/2506.21161)" build upon our previous research on "[**Output Prediction of Quantum Circuits based on Graph Neural Networks**](https://arxiv.org/abs/2504.00464)".
 
 ## Table of contents
 * [**Main work**](#Main-work)
