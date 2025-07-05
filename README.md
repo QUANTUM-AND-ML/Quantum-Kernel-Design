@@ -94,4 +94,4 @@ Here is the **brief introduction** to each python file for better understanding 
 - Qiskit >= 0.36.1
 - PyTorch >= 1.8.0
 - Parallel computing may require NVIDIA GPUs acceleration
-- 
+
