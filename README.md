@@ -82,7 +82,6 @@ Here is the **brief introduction** to each python file for better understanding 
 
 * "main.py" primarily includes dataset splitting and the **training** and **testing** of the neural network.
 * "Dataset.py" mainly includes the generation and saving of a large amount of datasets.
-* "CNN_generate_datas.py" mainly implements the generation of random quantum circuits used for training **Convolutional Neural Networks** (*CNNs*), as mentioned in the paper "[**Supervised learning of random quantum circuits via scalable neural networks**](https://iopscience.iop.org/article/10.1088/2058-9565/acc4e2)."
 * "GNN_generate_datas.py" mainly implements the generation of random quantum circuits used for training **Graph Neural Networks** (*GNNs*) to compute the ground-state energy of hydrogen molecules.
 * "circuit_to_graph.py" primarily defines a class that allows **the conversion of quantum circuits into graphs**.
 * "expectation_and_ground_state_energy_calculation.py" mainly defines functions for calculating the expectation values of quantum circuits and the ground state energy of the hydrogen molecule.
